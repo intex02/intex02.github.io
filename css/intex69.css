@@ -1,0 +1,164 @@
+.body {
+    background-color: #202020;
+}
+
+.container {
+	width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.head {
+	width: 33%;
+}
+
+@media screen and (max-width: 1170px) {
+	.head {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+	.head {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+	.head {
+        width: 75%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.nick {
+	text-align: center;
+    color: #0e93e0fd;
+    font-family: 'IntroDemo';
+    font-size: 65px;
+	vertical-align: bottom
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subtitle {
+	text-align: center;
+    padding: 0 0 25px;
+    color: #fffffffd;
+    font-family: 'IntroDemo';
+    font-size: 30px;
+	vertical-align: bottom
+}
+
+.bio {
+    text-align: center;
+    font-size: 22px;
+    color: #dfdfdffd;
+    font-family: 'Manrope', sans-serif;
+	vertical-align: bottom
+}
+
+.text-green {
+    color: #57FA0A;
+}
+
+
+@media screen and (max-width: 920px) {
+	.container {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+	.container {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+	.container {
+        max-width: 300px;
+    }
+}
+
+.social-icons-4 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 10px;
+}
+.social-icons-4 a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: relative;
+	margin: 15px;
+	text-align: center;
+	font-size: 32px;
+	color: #337AB7;
+	transition: 0.5s;
+}
+.social-icons-4 a img {
+	width: 64px;
+	height: 64px;
+	margin-top: 14px;
+}
+.social-icons-4 a i,
+.social-icons-4 a img {
+	z-index:2;
+	position: relative;
+	line-height: 60px;
+}
+.social-icons-4 a:hover {
+	color: #fff;
+}
+.social-icons-4 a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	background: #BFE2FF;
+	border-radius: 100%;
+	width: 0;
+	height: 0;
+	transition: 0.3s;
+	top: 0;
+	left: 50%;
+}
+.social-icons-4 a:hover:after {
+	width: 90px;
+	height: 90px;
+	margin-left: -43px;
+	background: #337AB7;
+}
+
+.footer {
+	margin: 100px;
+}
+
+@media screen and (max-width: 440px) {
+	.footer {
+        margin: 100px 0 0 0;
+    }
+}
+
+.links-text {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+    font-size: 18px;
+    color: #fffffffd;
+    font-family: 'IntroDemo';
+	vertical-align: bottom
+}

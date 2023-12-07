@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVION</title>
+    <script src="js/jquery-3.7.1.min.js" ></script>
+    <script src="js/snowfall.js"></script>
+    <script src="js/animation-show.js" ></script>
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+         font-family: IntroDemo; /* Гарнитура шрифта */
+         src: url(fonts/IntroDemo-BlackCAPS.otf); /* Путь к файлу со шрифтом */
+        }
+       </style>
+           <style>
+            body {
+            background-color: black;
+            background-size: 100%;
+        }
+        </style>
+</head>
+<body class="body">
+    <div class="loaderArea">
+        <span class="loader"></span>
+    </div>
+    <script>
+    $(window).on('load', function () {
+        $preloader = $('.loaderArea'),
+        $loader = $preloader.find('.loader');
+        $loader.fadeOut();
+        $preloader.delay(550).fadeOut('slow');
+    });
+    </script>
+<script type='text/javascript'>     
+    $(document).ready(function(){
+        $(document).snowfall({
+            image :"image/snow3.png", 
+            minSize: 7, 
+            maxSize: 12,
+        });
+    });
+ </script>
+        <div class="wrapper">
+            <header class="header">
+                <div class="logo">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <!-- Меню сайта -->
+                <nav class="nav">
+                    <ul>
+                        <base target="_blank">
+                        <li><a href="#" target="_self">ГЛАВНАЯ</a></li>
+                        <li><a href="https://avion-2.gitbook.io/avion/rules/obshie-pravila-minecraft">ВИКИ</a></li>
+                        <li><a href="map.html">КАРТА</a></li>
+                        <li><a href="https://avion.easydonate.ru/">МАГАЗИН</a></li>
+                        <li><a href="https://discord.gg/7gxmDwZmKS ">ДИСКОРД</a></li>
+                    </ul>
+                </nav>
+                <!-- Иконка бургерменю -->
+                <div class="burger">
+                    <span></span>
+                </div>
+            </header>
+        </div>
+        <div class="container">
+                <div class="header1">
+                    <img class="ab1" src="image/ab1.png" alt="">
+                </div>
+                <div class="wrap-title">
+                    <h1 class="title"><span class="green-text">AVION</span> - ванильный minecraft сервер на версии 1.20</h1>
+                </div>
+            <div id="games" class="games">
+                <div class="game e">
+                    <div>
+                        <h3>ПОЧЕМУ ИМЕННО МЫ?</h3>
+                        <p class="game-s">На нашем сервере всё сделано для удобства игроков. На сервере всегда стабильный TPS и PING что позволяет добиться наилучшего погружения в геймплей сервера. У нас самая добрая и отзывчивая администрация которая всегда прислушивается к мнению игроков и следит за новыми тенденциями чтобы сделать геймплей на сервере еще лучше. Не зависимо от того, являетесь ли вы новичком или опытным ветераном Minecraft, Avion дает вам возможность испытать настоящую мощь творчества и самовыражения. Ваше воображение - единственное ограничение!</p>
+                    </div>
+                    <img alt="" class="gimg a"  src="image/whyme.png">
+                </div>
+
+                <div class="game f">
+                    <div>
+                        <h3>ГОЛОСОВОЙ ЧАТ</h3>
+                        <p class="game-s">Хотите ощутить настоящую свободу коммуникации на сервере? Тогда мы имеем для вас потрясающую новость! Представляем вам голосовой чат нашего сервера, созданный с использованием инновационного мода Plasmovoice. Наши игроки смогут общаться между собой голосом, создавая по-настоящему захватывающую атмосферу игры. Забудьте о том, чтобы набирать сообщения в чате, теперь вы сможете просто говорить вслух! Подробнее вы можете прочитать на сайте нашей <a class="green-text" href="">википедии</a></p>
+                    </div>
+                    <img alt="" class="gimg b" src="image/voice.png">
+                </div>
+
+                <div class="game q">
+                    <div class="element-animation">
+                        <h3>ДИНАМИЧЕСКАЯ КАРТА СЕРВЕРА</h3>
+                        <p class="game-s">Устали от однообразных ландшафтов в своем сервере Minecraft? Динамическая карта - это то, что вам нужно! Динамическая карта – это настоящий прорыв в мире игровой графики. Она позволяет вам и вашим игрокам увидеть в реальном времени, что происходит на сервере. С динамической картой, вы и ваши игроки сможете исследовать все уголки сервера с невероятной детализацией. Вы сможете увидеть все здания, ландшафты и даже игроков в реальном времени. Это открывает огромные возможности для игры. Посмотреть карту можно по <a class="green-text" href="">ссылке</a></p>
+                    </div>
+                    <img alt="" class="gimg a" src="image/dynmap.png">
+                </div>
+
+                <div class="game j">
+                    <div>
+                        <h3>УНИКАЛЬНЫЕ ПЛАГИНЫ</h3>
+                        <p class="game-s">Откройте для себя новые горизонты игры с уникальными плагинами для сервера Minecraft! Представляем вам невероятно разнообразные возможности, которые сделают ваш игровой процесс еще более захватывающим и интересным. Откройте двери в мир невероятных приключений и увлекательных заданий с помощью плагинов, которые не портят ванильность сервера, а только добавляют больше возможностей для самовыражения.</p>
+                    </div>
+                    <img alt="" class="gimg c" src="image/plugins.png">
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <footer class="footer">
+                <p>© 2023 AVION не относится к Mojang Studios.</p>
+                <p>Created by <a class="intex69" href="intex69.html">intex69</a> With helped by <a class="ADaola" href="https://t.me/adaoladesign">ADaola</a></p>
+            </footer>
+        </div>
+        <script>
+            document.querySelector('.burger').addEventListener('click', function() {
+                this.classList.toggle('active');
+                document.querySelector('.nav').classList.toggle('open');
+            })
+        </script>
+</body>
+</html>
